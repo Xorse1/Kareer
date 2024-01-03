@@ -1,0 +1,114 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Kareerz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    
+  </head>
+  <style>
+  .zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+
+  .zoom:hover {
+    transform: scale(0.98); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+    .textonimage {
+        position: relative;
+        display:inline-block;
+    }
+    .text {
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right:0;
+        margin-left:5px;
+        width: 100%;
+        opacity:0.8;
+        color: black;
+    }
+  </style> 
+  <body style="font-family: 'Roboto Mono', monospace;">
+    <!-----------------NAVBAR--------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-weight:900">KAREERZ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+           <a href="" style="text-decoration: none">Signup / </a>
+          <a href=""  style="text-decoration: none">Signin</a>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!------------BANNER IMAGE-------------->
+    <div class="header-row" id="header-row" style="padding: 0px; overflow:hidden; height:250px;">
+       <div class="container-fluid" style="padding: 0px;">
+          <div class="row"> 
+             <div class="col-xs-12"> 
+                <a class="navbar-brand logo" href="index.html">
+                   <img src="https://kareer.faithablorde.repl.co/static/bannerbg.jpg" alt="company logo" style="width: 100%; object-fit:cover; height:400px ">
+                </a> 
+             </div>     
+          </div>
+       </div>
+    </div>
+
+    <!------------------RECENT JOBS----------------->
+    <div class="container-fluid" style="padding: 0px;">
+      <h3 style="font-weight:900">RECENT POSTS</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-3 zoom textonimage" style="height:200px; margin:0px;">
+            <img src="https://www.codentricks.com/wp-content/uploads/2016/07/php.jpg" style="height:200; width:100%; object-fit:cover;">
+            <span class="text badge" >Senior php Developer <br> Rendz Technologies <br> 2 days Ago
+            </span>
+           
+          </div>
+          <div class="col-6 col-md-3 zoom" style="height:200px; overflow:hidden;margin:0px">
+            <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2021/11/php-8-2.webp" style="height:320; width:100%; object-fit:cover;">
+          </div>
+          <div class="col-6 col-md-3 zoom" style="height:200px; overflow:hidden;margin:0px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" style="height:320; width:100%; object-fit:cover;">
+          </div>
+          <div class="col-6 col-md-3 zoom" style="height:200px; overflow:hidden;margin:0px">
+            <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2021/11/php-8-2.webp" style="height:320; width:100%; object-fit:cover;">
+          </div>
+          <div class="col-6 col-md-3 zoom" style="height:200px; overflow:hidden;margin:0px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" style="height:320; width:100%; object-fit:cover;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
